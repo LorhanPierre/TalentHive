@@ -30,6 +30,11 @@ a{
     color: inherit;
 }
 
+main{
+    width: 90%;
+    margin: 0 auto;
+}
+
 .menu-desktop{
     display: none;
 }
@@ -58,8 +63,6 @@ a{
 }
 
 .hero{
-
-    width: 92%;
     height: 588px;
     margin: 0 auto;
     padding:2rem 0 2rem 0;
@@ -77,9 +80,15 @@ a{
     text-align: center;
     line-height: 22px;
     font-weight: 400;
-    padding: 0 0 3rem 0;
+    padding: 0 0 2.7em 0;
 }
 
-.img-hero{
-    max-height: 400px;
+.intro h2{
+    font-family: Space Grotesk,Regular;
+    padding-top: 3.5rem;
+    font-size:30px;
+    line-height: 42px;
+    letter-spacing: -2px;
+    font-weight: 600;
+    text-align: center;
 }
